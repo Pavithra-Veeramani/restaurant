@@ -14,7 +14,7 @@ body{
        font-family: Akaya Telivigala, sans-serif;
        text-transform: uppercase;
        letter-spacing: 4px;
-       color:black;
+       color:#3a3a3a;
    }
    #logo{
        position: absolute;
@@ -63,7 +63,27 @@ body{
   .active{
       border-bottom: 1px solid#3a3a3a;
   }
- 
+
+  /*footer*/
+  footer {
+    position: fixed;
+    height: 150px;
+    background-color: goldenrod;
+    bottom: 0;
+    width: 100%;
+  }
+  .social-media{
+    text-align: center;
+  }
+  .social-media > li{
+    display: inline;
+  }
+  .social-media i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:#3a3a3a
+  }
       
   
     

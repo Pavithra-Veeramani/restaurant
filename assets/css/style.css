@@ -1,53 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Open+Sans:wght@300&display=swap');
 *{
     margin: 0;
     padding:0;
     border: none;
 }
 body{
-    font-family: Lato, sans-serif;
+    font-family:open sans, sans-serif;
     font-weight: 300;
-    color:white;
+    color:black;
    }
 
    h1, h2{
-       font-family: Oswald, sans-serif;
+       font-family: Akaya Telivigala, sans-serif;
        text-transform: uppercase;
        letter-spacing: 4px;
-       color:white;
+       color:black;
    }
    #logo{
        position: absolute;
-       text-align: center;
+       text-align: left;
        font-size: 280%;
-       margin-top: 20px;
+       margin-top: 10px;
    }
+   
+   
+   /* navigation links */
    .header{
     height: 20vh;
    }
-   /* navigation links */
    .text-center{
     text-align: right;
     text-transform: uppercase;
-    color: #fff;
     font-size: 110%;
-    text-decoration: none;
-    
     }
    
    .background{
-       background-color:black;
-      
-       
-   }
+       background-color:goldenrod;
+      }
+
    #menu{
    
     letter-spacing: 2px;
 }  
-#menu li{
+
+   #menu, #logo{
+    line-height: 75px;
+}
+
+   #menu li{
     display: inline;
     float: center;
     list-style-type: none;
     margin-left: 30px;
     }
+   #menu a{
+    text-decoration: none;
+    color: inherit;
+}
+  #menu a:hover{
+      border-bottom: 1px solid#3a3a3a;
+  }
+  .active{
+      border-bottom: 1px solid#3a3a3a;
+  }
     

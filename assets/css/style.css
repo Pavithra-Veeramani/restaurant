@@ -1,89 +1,185 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Open+Sans:wght@300&display=swap');
-*{
-    margin: 0;
-    padding:0;
-    border: none;
-}
-body{
-    font-family:open sans, sans-serif;
-    font-weight: 300;
-    color:black;
-   }
 
-   h1, h2{
-       font-family: Akaya Telivigala, sans-serif;
-       text-transform: uppercase;
-       letter-spacing: 4px;
-       color:#3a3a3a;
-   }
-   #logo{
-       position: absolute;
-       text-align: left;
-       font-size: 280%;
-       margin-top: 10px;
-   }
-   
-   
-   /* navigation links */
-   .header{
-    height: 20vh;
-   }
-   .text-center{
-    text-align: right;
-    text-transform: uppercase;
-    font-size: 110%;
-    }
-   
-   .background{
-       background-color:goldenrod;
-      }
-
-   #menu{
-   
-    letter-spacing: 2px;
-}  
-
-   #menu, #logo{
-    line-height: 75px;
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-   #menu li{
-    display: inline;
-    float: center;
-    list-style-type: none;
-    margin-left: 30px;
-    }
-   #menu a{
-    text-decoration: none;
-    color: inherit;
+body {
+  font-family: open sans, sans-serif;
+  font-weight: 300;
+  color: black;
 }
-  #menu a:hover{
-      border-bottom: 1px solid#3a3a3a;
-  }
-  .active{
-      border-bottom: 1px solid#3a3a3a;
-  }
 
-  /*footer*/
-  footer {
-    position: fixed;
-    height: 150px;
-    background-color: goldenrod;
-    bottom: 0;
-    width: 100%;
-  }
-  .social-media{
-    text-align: center;
-  }
-  .social-media > li{
-    display: inline;
-  }
-  .social-media i{
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color:#3a3a3a
-  }
-      
+h1,
+h2 {
+  font-family: Akaya Telivigala, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #3a3a3a;
+}
+
+#logo {
+  position: absolute;
+  text-align: left;
+  font-size: 280%;
+  margin-top: 10px;
+}
+
+
+/* navigation links */
+.header {
+  height: 15vh;
   
-    
+}
+
+.text-center {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 110%;
+}
+
+.background {
+  background-color: goldenrod;
+}
+
+#menu {
+  letter-spacing: 2px;
+  padding-right: 5px;
+}
+
+#menu,
+#logo {
+  line-height: 75px;
+  padding-left: 5px;
+}
+
+#menu li {
+  display: inline;
+  float: center;
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid#3a3a3a;
+}
+
+.active {
+  border-bottom: 1px solid#3a3a3a;
+}
+
+/*footer*/
+footer {
+  /*position: absolute; bottom: 0;*/
+  height: 15vh;
+  background-color: goldenrod;
+  width: 100%;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media>li {
+  display: inline;
+}
+
+.social-media i {
+  font-size: 160%;
+  margin: 1%;
+  color: #3a3a3a
+}
+
+/*image spice*/
+#image-spice-holder {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#image-spice {
+  height: 600px;
+  width: 100%;
+  background: url('../images/dosa.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+  /*background-size: auto;*/
+
+/*About Us*/
+
+.para{
+  margin:0px 40px 40px
+}
+#our-story{
+  /* position: relative; */
+  /* margin:0px 50px 40px; */
+  /* height: 300px; */
+  width: 100%;
+  /* float: left; */
+}
+
+span{
+  font-weight: bold;
+}
+
+#story-img{
+  /* position: relative; */
+  /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
+  /* height: 300px; */
+  width: 100%;
+ 
+  /* float: left; */
+  /* height: 50px;*/
+  /* background-position: right; */
+}
+
+@media only screen and (min-width: 768px) {
+
+  #story-img{
+    /* position: relative; */
+    /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
+    /* height: 300px; */ 
+    width: 50%;
+    float: left;
+    /* height: 50px;*/
+    /* background-position: right; */
+  }
+
+  #our-story{
+    /* position: relative; */
+    /* margin:0px 50px 40px; */
+    /* height: 300px; */
+    width: 50%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #story-img{
+    /* position: relative; */
+    /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
+    /* height: 300px; */
+    width: 50%;
+    float: left;
+    /* height: 50px;*/
+    /* background-position: right; */
+  }
+
+  #our-story{
+    /* position: relative; */
+    /* margin:0px 50px 40px; */
+    /* height: 300px; */
+    width: 50%;
+    float: left;
+  }
+}

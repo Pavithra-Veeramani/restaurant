@@ -77,8 +77,8 @@ h2 {
 
 /*footer*/
 footer {
-  /*position: absolute; bottom: 0;*/
-  height: 15vh;
+  position: fixed; bottom: 0;
+  height: 8vh;
   background-color: goldenrod;
   width: 100%;
 }
@@ -183,3 +183,13 @@ span{
     float: left;
   }
 }
+
+/* #food-img {
+  width: 0%;
+  height: 400px;
+  float: left;
+  background: url('/assets/images/buffet-indian-food.webp');
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+} */

@@ -32,8 +32,6 @@ h2 {
 /* navigation links */
 .header {
   height: 15vh;
-  
-  
 }
 
 .text-center {
@@ -120,110 +118,135 @@ footer {
 /*About Us*/
 
 .para{
+  font-size: 18px;
   margin: auto;
-  width: 400px;
   text-align: justify;
-  padding: 10px;
-  }
-
-  
-
-#our-story{
-  /* position: relative; */
-  /* margin:0px 50px 40px; */
-  /* height: 300px; */
-  width: 100%;
-  /* float: left; */
 }
 
-
-
-#story-img{
-  /* position: relative; */
-  /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
-  /* height: 300px; */
-  width: 100%;
- 
-  /* float: left; */
-  /* height: 50px;*/
-  /* background-position: right; */
+#food-section{
+  padding-top: 75px;
+}
+#story-section{
+  padding-top: 75px;
 }
 
-@media only screen and (min-width: 768px) {
-
-  #story-img{
-    /* position: relative; */
-    /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
-    /* height: 300px; */ 
-    width: 50%;
-    float: left;
-    /* height: 50px;*/
-    /* background-position: right; */
-  }
-
-  #our-story{
-    /* position: relative; */
-    /* margin:0px 50px 40px; */
-    /* height: 300px; */
-    width: 50%;
-    float: left;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  #story-img{
-    /* position: relative; */
-    /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
-    /* height: 300px; */
-    width: 50%;
-    float: left;
-    /* height: 50px;*/
-    /* background-position: right; */
-  }
-
-  #our-story{
-    /* position: relative; */
-    /* margin:0px 50px 40px; */
-    /* height: 300px; */
-    width: 50%;
-    float: left;
-  }
-}
-
-/* #food-img {
-  width: 0%;
-  height: 400px;
-  float: left;
-  background: url('/assets/images/buffet-indian-food.webp');
- 
-  background-size: contain;
-  background-repeat: no-repeat;
-} */
-
-#container{
-  padding: 10px 10px 10px 10px;
-}
 h2{
   text-align: center;
-  
 }
+
 #food-img{
-   /* position: relative; */
+   width: 100%;
+}
+
+#our-food{
+  width: 100%;
+}
+
+#our-story{
+ width: 100%;
+}
+#story-img{
+ width: 100%;
+}
+
+
+/* Responsiveness for Tablet */
+@media only screen and (min-width: 600px) {
+  #our-story-container {
+    padding-right: 50px;
+  }
+
+  #story-img{
+    /* position: relative; */
+    /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
+    /* height: 300px; */
+    width: 50%;
+    float: left;
+    /* height: 50px;*/
+    /* background-position: right; */
+  }
+
+  #our-story{
+    /* position: relative; */
+    /* margin:0px 50px 40px; */
+    /* height: 300px; */
+    width: 50%;
+    float: left;
+  }
+
+  #our-food-container {
+    padding-right: 50px;
+  }
+
+  #our-food{
+    /* position: relative; */
+    /* margin:0px 50px 40px; */
+    /* height: 300px; */
+    width: 50%;
+    float: left;
+  }
+  #food-img{
+    /* position: relative; */
     /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
     /* height: 300px; */ 
-    width: 100%;
-    padding: 30px;
-    
+    width: 50%;
+    float: left;
     /*float: left;*/
     /* height: 50px;*/
     /* background-position: right; */
 
+  }
+
 }
-#our-food{
-  /* position: relative; */
+
+/* Responsiveness for Laptop */
+@media only screen and (min-width: 768px) {
+
+  #our-story-container {
+    padding-left:50px;
+  }
+
+  #story-img{
+    /* position: relative; */
+    /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
+    /* height: 300px; */
+    width: 50%;
+    float: left;
+    /* height: 50px;*/
+    /* background-position: right; */
+  }
+
+  #our-story{
+    /* position: relative; */
     /* margin:0px 50px 40px; */
     /* height: 300px; */
-    width: 100%;
-    margin-right: 250px;
-    
+    width: 50%;
+    float: left;
+  }
+
+  #our-food-container {
+    padding-left:50px;
+    padding-bottom: 50px;
+  }
+
+  #our-food{
+    /* position: relative; */
+    /* margin:0px 50px 40px; */
+    /* height: 300px; */
+    width: 50%;
+    float: left;
+  }
+  #food-img{
+    /* position: relative; */
+    /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
+    /* height: 300px; */ 
+    width: 50%;
+    float: left;
+  }
+
+}
+
+#gallery-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

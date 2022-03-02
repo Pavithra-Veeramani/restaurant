@@ -17,9 +17,7 @@ h2 {
   font-family: Akaya Telivigala, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #3a3a3a;
-  
-  
+  color: black;
 }
 
 #logo {
@@ -78,7 +76,8 @@ h2 {
 
 /*footer*/
 footer {
-  position: fixed; bottom: 0;
+  position: fixed;
+  bottom: 0;
   height: 8vh;
   background-color: goldenrod;
   width: 100%;
@@ -112,13 +111,14 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
 }
-  /*background-size: auto;*/
+
+/*background-size: auto;*/
 
 /*About Us*/
 
-.para{
+.para {
   font-size: 18px;
   margin: auto;
   text-align: justify;
@@ -127,27 +127,29 @@ footer {
 #food-wrapper {
   padding-top: 75px;
 }
-#story-wrapper{
+
+#story-wrapper {
   padding-top: 75px;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
-#food-img{
-   width: 100%;
-}
-
-#our-food{
+#food-img {
   width: 100%;
 }
 
-#our-story{
- width: 100%;
+#our-food {
+  width: 100%;
 }
-#story-img{
- width: 100%;
+
+#our-story {
+  width: 100%;
+}
+
+#story-img {
+  width: 100%;
 }
 
 
@@ -157,7 +159,7 @@ h2{
     padding-right: 50px;
   }
 
-  #story-img{
+  #story-img {
     /* position: relative; */
     /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
     /* height: 300px; */
@@ -167,7 +169,7 @@ h2{
     /* background-position: right; */
   }
 
-  #our-story{
+  #our-story {
     /* position: relative; */
     /* margin:0px 50px 40px; */
     /* height: 300px; */
@@ -179,17 +181,18 @@ h2{
     padding-right: 50px;
   }
 
-  #our-food{
+  #our-food {
     /* position: relative; */
     /* margin:0px 50px 40px; */
     /* height: 300px; */
     width: 50%;
     float: left;
   }
-  #food-img{
+
+  #food-img {
     /* position: relative; */
     /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
-    /* height: 300px; */ 
+    /* height: 300px; */
     width: 50%;
     float: left;
     /*float: left;*/
@@ -197,27 +200,28 @@ h2{
     /* background-position: right; */
 
   }
-
 }
+
 
 /* Responsiveness for Laptop */
 @media only screen and (min-width: 768px) {
 
   #our-story-container {
-    padding-left:50px;
+    padding-left: 50px;
   }
 
-  #story-img{
+  #story-img {
     /* position: relative; */
-    /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
+    /* background: url('/assets/images/banana-leaf.jpg') no-repeat;*/
     /* height: 300px; */
     width: 50%;
     float: left;
+
     /* height: 50px;*/
     /* background-position: right; */
   }
 
-  #our-story{
+  #our-story {
     /* position: relative; */
     /* margin:0px 50px 40px; */
     /* height: 300px; */
@@ -226,21 +230,22 @@ h2{
   }
 
   #our-food-container {
-    padding-left:50px;
+    padding-left: 50px;
     padding-bottom: 50px;
   }
 
-  #our-food{
+  #our-food {
     /* position: relative; */
     /* margin:0px 50px 40px; */
     /* height: 300px; */
     width: 50%;
     float: left;
   }
-  #food-img{
+
+  #food-img {
     /* position: relative; */
     /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
-    /* height: 300px; */ 
+    /* height: 300px; */
     width: 50%;
     float: left;
   }
@@ -252,37 +257,41 @@ h2{
   padding-bottom: 50px;
 }
 
-.spacer{
+.spacer {
   padding: 20px;
   height: 20px;
   width: 20px;
 }
-.dosa-item{
+
+.dosa-item {
   font-size: 20px;
   padding: 25px 50px 75px 100px;
   width: 50%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-.dosa-item  ul{
+.dosa-item ul {
   list-style-type: none;
   list-style-position: inside;
 }
 
-h1{
+h1 {
   padding: 10px;
   text-align: center;
 }
+
 .menu-price {
   float: right;
+  font-weight: bold;
 }
 
 .menu-extra-detail {
   font-size: 15px;
   font-style: italic;
+
 }
 
-
-
-
-
+.background-menu {
+  background-color: rgb(255, 255, 179);
+  background-size: cover;
+}

@@ -40,7 +40,7 @@ h2 {
 }
 
 .background {
-  background-color: goldenrod;
+  background-color: goldenrod; 
 }
 
 #menu {
@@ -52,7 +52,7 @@ h2 {
 #logo {
   line-height: 75px;
   padding-left: 5px;
-}
+ }
 
 #menu li {
   display: inline;
@@ -152,6 +152,16 @@ h2 {
   width: 100%;
 }
 
+#map-wrapper {
+  width: 100%;
+  height: 200px;
+}
+
+#address-wrapper p{
+
+  padding: 5px;
+  font-size: 15px;
+}
 
 /* Responsiveness for Tablet */
 @media only screen and (min-width: 600px) {
@@ -199,6 +209,17 @@ h2 {
     /* height: 50px;*/
     /* background-position: right; */
 
+  }
+
+  #map-wrapper {
+    width: 50%;
+    float: left;
+    height: 200px;
+  }
+
+  #address-wrapper{
+    width: 50%;
+    float: left;
   }
 }
 
@@ -250,6 +271,22 @@ h2 {
     float: left;
   }
 
+  #map-wrapper {
+    width: 50%;
+    height: 200px;
+  }
+
+  #map-wrapper {
+    width: 50%;
+    float: left;
+    height: 200px;
+  }
+
+  #address-wrapper{
+    width: 50%;
+    float: left;
+    color: #464040;
+  }
 }
 
 #gallery-section {
@@ -296,16 +333,30 @@ h1 {
   background-size: cover;
 }
 
+.bg-contact-us {
+  
+  /* text-align: center; */
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: rgb(138, 114, 63); */
+  background-size: cover;
+  
+  /*margin-left: 100%;
+  margin-right: 100%; 
+  /* margin-bottom: 60px; */
+  /* height: 465px; */
+}
 .contact-form {
   text-align: center;
   /* padding: 20px 0px 0px 80px; */
-  font-size: 20px;
-  border: 1px solid #3a3a3a;
-  padding: 35px 80px 40px 80px;
-  background-color: rgb(255, 255, 179);
+  font-size: 18px;
+  /* border: 1px solid #e1e1e1; */
+  padding: 20px 20px 20px 20px;
+  /* background-color: rgb(255, 255, 179); */
   background-size: contain;
   font-family: open sans, sans-serif;
-  margin: 20px 20em 10px 20em;
+  /* margin: 20px 20em 10px 20em; */
   
   /* margin: 0px 50px 75px 80px;
   border-style: groove;
@@ -314,18 +365,24 @@ h1 {
 
 #fname {
   /* padding-left: 80px; */
-  text-align: center;
-  border: 1px solid #3a3a3a;
+  /* text-align: center; */
+  padding: 13px 10px;
+  border: 1px solid #e1e1e1;
+  width: 100%;
 }
 
-#lname {
-  border: 1px solid #3a3a3a;
+#phone {
+  padding: 13px 10px;
+  border: 1px solid #e1e1e1;
+  width: 100%;
 }
 
 #email {
-  border: 1px solid #3a3a3a;
+  padding: 13px 10px;
+  border: 1px solid #e1e1e1;
+  width: 100%;
   /* padding-left: 80px; */
-  text-align: center;
+  /* text-align: center; */
 }
 
 #contact {
@@ -335,18 +392,10 @@ h1 {
   padding: 1em;
 }
 
-.bg-contact-us {
-  
-  /* text-align: center; */
-  width: 100%;
-  height: 500px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: rgb(138, 114, 63);
-  background-size: cover;
-  
-  /*margin-left: 100%;
-  margin-right: 100%; 
-  /* margin-bottom: 60px; */
-  /* height: 465px; */
+.btn-contactus-submit{
+  background: #3a3a3a;
+  color: white;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
 }

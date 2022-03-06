@@ -160,9 +160,10 @@ h2 {
   height: 200px;
 }
 
+#address-wrapper {
+  text-align: center;
+}
 #address-wrapper p{
-
-  padding: 5px;
   font-size: 15px;
 }
 
@@ -214,7 +215,7 @@ h2 {
 
   }
 
-  #map-wrapper {
+  /* #map-wrapper {
     width: 50%;
     float: left;
     height: 200px;
@@ -223,7 +224,7 @@ h2 {
   #address-wrapper{
     width: 50%;
     float: left;
-  }
+  } */
 }
 
 
@@ -273,12 +274,8 @@ h2 {
     float: left;
   }
 
-  #map-wrapper {
-    width: 50%;
-    height: 200px;
-  }
 
-  #map-wrapper {
+  /* #map-wrapper {
     width: 50%;
     float: left;
     height: 200px;
@@ -288,7 +285,7 @@ h2 {
     width: 50%;
     float: left;
     color: #464040;
-  }
+  } */
 }
 
 #gallery-section {

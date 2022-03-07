@@ -161,9 +161,11 @@ h2 {
 
 #address-wrapper {
   text-align: center;
+  font-family: Akaya Telivigala, sans-serif;
 }
 #address-wrapper p{
   font-size: 15px;
+  font-family: open sans;
 }
 
 
@@ -390,12 +392,14 @@ h1 {
   padding: 13px 10px;
   border: 1px solid #e1e1e1;
   width: 100%;
+  border-radius: 8px;
 }
 
 #phone {
   padding: 13px 10px;
   border: 1px solid #e1e1e1;
   width: 100%;
+  border-radius: 8px;
 }
 
 #email {
@@ -404,6 +408,8 @@ h1 {
   width: 100%;
   /* padding-left: 80px; */
   /* text-align: center; */
+  border-radius: 8px;
+}
 }
 
 #contact {
@@ -416,7 +422,7 @@ h1 {
 
 .btn-contactus-submit{
   background: goldenrod;
-  color: white;
+  color: black;
   height: 30px;
   width: 100px;
   cursor: pointer;
@@ -424,7 +430,7 @@ h1 {
 }
 .table{
   background: goldenrod;
-  color: white;
+  color: black;
   height: 30px;
   width: 120px;
   cursor: pointer;
@@ -439,4 +445,6 @@ h1 {
     padding: 13px 10px;
     border: 1px solid #e1e1e1;
     width: 100%;
+    border-radius: 8px;
+}
   }

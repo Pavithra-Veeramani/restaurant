@@ -24,6 +24,13 @@ Our chefs are experts in creating all varieties of Indian foods, sweets and savo
         </ol>
     </ul>
     <hr>
+
+    # **Images**
+    <ul>
+    <li>All images for the website was downloaded from <a href="https://pixabay.com/">Pixabay</a></li>
+    </ul>
+    <hr>
+
   - # **Audio and Video**
 <ul>
 <li><strong>Audio and video plays a vital role in website design. It enhance the site and provides great user experience to the users.</strong></li>
@@ -71,6 +78,8 @@ The HTML checker notified me an error in my index.html page.
   <li>Home page contains our story which outlines the story of the restaurant and our food section outlines the nature and quality of the food.</li>
   <li>Gallery section includes images which attract potential customers and generate more sales too. </li>
   </ul>
+
+  ![Navigation](/assets/images/readme/navigation.png "Navigation")
   <hr>
 
    # **Menu**
@@ -82,17 +91,25 @@ The HTML checker notified me an error in my index.html page.
    video of the food preparation is included in the middle of the page. Videos keep your audience interested and engage them with your content.
    </li>
    </ul>
+   
    <hr>
 
    # **Contact Us**
    <ul>
-   <li>
+   <li>Contact us page contains form to get input from the user and a map to navigate to the desired location. 
    </li>
    </ul>
+
+   
+
   [5.Bugs](#bugs)
 
-  [6. Deployment](#deployment)
+  # **Deployment**
+  ### **GitHub Pages**
+  <p>Project deployment takes place in git hub pages using with following steps:</p>
 
+  #### **Step 1**
+  Open git hub pages
   [7. Acknowledgement](#acknowledgement)
  
 

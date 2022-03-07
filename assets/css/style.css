@@ -120,10 +120,9 @@ footer {
 /*About Us*/
 
 .para {
-  font-size: 18px;
+  font-size: 16px;
   margin: auto;
   text-align: justify;
-
 }
 
 #food-wrapper {
@@ -165,6 +164,16 @@ h2 {
 }
 #address-wrapper p{
   font-size: 15px;
+}
+
+
+.video-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prep-video {
+  width: 100%;
 }
 
 /* Responsiveness for Tablet */
@@ -213,6 +222,10 @@ h2 {
     /* height: 50px;*/
     /* background-position: right; */
 
+  }
+
+  .prep-video {
+    width: 50%;
   }
 
   /* #map-wrapper {
@@ -275,6 +288,9 @@ h2 {
   }
 
 
+  .prep-video {
+    width: 50%;
+  }
   /* #map-wrapper {
     width: 50%;
     float: left;
@@ -291,7 +307,12 @@ h2 {
 #gallery-section {
   overflow: auto;
   width: 100%;
-  padding: 25px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 10px;
 }
 
 .spacer {
@@ -386,7 +407,7 @@ h1 {
 }
 
 #contact {
-  
+  padding: 20px;
   /* padding: 20px 0px 20px 80px; */
   /* text-align: center;
   font-family: Akaya Telivigala, sans-serif;
@@ -394,9 +415,28 @@ h1 {
 }
 
 .btn-contactus-submit{
-  background: #3a3a3a;
+  background: goldenrod;
   color: white;
   height: 30px;
   width: 100px;
   cursor: pointer;
+  border-radius: 8px;
 }
+.table{
+  background: goldenrod;
+  color: white;
+  height: 30px;
+  width: 120px;
+  cursor: pointer;
+  margin:auto;
+  display:block;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 2em;
+  }
+  #message{
+    padding: 13px 10px;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+  }

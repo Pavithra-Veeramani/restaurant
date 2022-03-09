@@ -1,25 +1,25 @@
-View live website here.[Dosa Hut](https://pavithra-veeramani.github.io/restaurant/)
+View live website [here.](https://pavithra-veeramani.github.io/restaurant/)
 # Dosa Hut
 Welcome!
-Dosa Hut is a fictious family owned restaurant which was founded in 2010.
+Dosa Hut is a fictitious family owned restaurant which was founded in 2010.
 In Indian cookery, a dosa is a crisp savoury pancake.
-We are one of the popular restaurants in the town for creating crispy dosas.
-We mainly focus on quality, customer satisfication and fulfiling their needs.
-Our chefs are experts in creating all varieties of Indian foods, sweets and savouries. 
+We are one of the popular restaurants in the town for making crispy dosas.
+We mainly focus on quality, customer satisfication and fulfilling their needs.
+Our chefs are experts in making all varieties of Indian foods, dosas in particular, sweets and savouries. 
 
   # **User Experience (UX)**
-  <p>User experience design plays a important role in keeping the customers in your website.</p>
-    <ul>
-      <li>As a user, the website is simple and provides clarity in all the pages.Contents are esily locatable and navigable.
-      </li>
-    </ul>
-    <ul>
-      <li>The navigation bar is simple with threee sections.The foreground and background colors are selected for people with visual impairment. 
-      </li>
-    </ul>
+  <p>User experience design plays a important role to attract new customers, boost sales, and create good reputation.</p>
+
+  <h3><strong>Website objective:</strong></h3>
+  The objective of this website is to give a simplified user experience in getting the restaurant's menu information, contact details and table booking process.
+
+  <ul>
+    <li>The navigation bar is simple with three menu items: Home, Menu, and Contct Us. The foreground and background colors are selected having people with visual impairment also in to consideration. 
+    </li>
+  </ul>
   
   <ul>
-      <li>Website is scannable with attractive fonts and visuals.On repeat visits the user can accomplish repetitive tasks quickly and easily.
+      <li>Website is scannable with attractive fonts and visuals. On repeat visits the user can accomplish repetitive tasks quickly and easily.
       </li>
   </ul>
 
@@ -30,10 +30,10 @@ Our chefs are experts in creating all varieties of Indian foods, sweets and savo
 
   -	# **Color Scheme and Font**
     <ul>
-        <li><strong>Colour Scheme</strong></li>
-        <ol type="a">
-        <li>Colors used in the website are goldenrod and black.</li>
-        </ol> 
+      <li><strong>Colour Scheme</strong></li>
+      <ol type="a">
+      <li>Colors used in the website are goldenrod and black.</li>
+      </ol> 
     </ul>
     <ul>
       <li><strong>Font</strong></li>
@@ -93,6 +93,7 @@ Our chefs are experts in creating all varieties of Indian foods, sweets and savo
   <li>I have confirmed that the form works,requires entries in every field.
   </li>
   </ul>
+
 ### Responsive Tools
 
 In order to make sure that design web pages are responsive to all device sizes, [Am I Responsive](http://ami.responsivedesign.is/) site was used to check it. 
@@ -147,9 +148,6 @@ In order to make sure that design web pages are responsive to all device sizes, 
 
    ![Contact-Us-2](/assets/images/readme/contact-us-2.png "Contact-Us-2")
 
-   
-
-  
 
   # **Deployment**
   ### **GitHub Pages**
@@ -166,6 +164,3 @@ In order to make sure that design web pages are responsive to all device sizes, 
   <p>We need to scroll down to the git hub pages section to get our deployed link.</p>
     
   [7. Acknowledgement](#acknowledgement)
- 
-
-   

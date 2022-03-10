@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Open+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+Pro:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -7,14 +6,14 @@
 }
 
 body {
-  font-family: open sans, sans-serif;
-  font-weight: 300;
+  font-family: source sans pro, sans-serif;
+  font-weight: 500;
   color: black;
 }
 
 h1,
 h2 {
-  font-family: Akaya Telivigala, sans-serif;
+  font-family: playfair display, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: black;
@@ -67,6 +66,7 @@ h2 {
 #menu a {
   text-decoration: none;
   color: inherit;
+  
 }
 
 #menu a:hover {
@@ -79,19 +79,23 @@ h2 {
 
 /*footer*/
 footer {
-  position: fixed;
+  
   bottom: 0;
-  height: 8vh;
+  height: 10vh;
   background-color: goldenrod;
   width: 100%;
 }
 
 .social-media {
   text-align: center;
+  
 }
 
 .social-media>li {
-  display: inline;
+  display: inline-block;
+  margin-right: 5em;
+  vertical-align:top;
+  padding: 15px;
 }
 
 .social-media i {
@@ -170,22 +174,23 @@ h2 {
   justify-content: center;
   display: inline-block;
   margin: 25px 60px;
-  border-radius: 15px;
+  
 }
 
 #map-wrapper {
   width: 100%;
   height: 200px;
+  
 }
 
 #address-wrapper {
   text-align: center;
-  font-family: Akaya Telivigala, sans-serif;
+  font-family:  source sans pro, sans-serif;
 }
 
 #address-wrapper p {
   font-size: 15px;
-  font-family: open sans;
+  font-family: source sans pro;
 }
 
 
@@ -448,7 +453,7 @@ h1 {
   border: 1px solid #e1e1e1;
   width: 100%;
   border-radius: 8px;
-  font-family: open sans, sans-serif;
+  font-family: Montserrat, sans-serif;
   resize: none;
 }
 

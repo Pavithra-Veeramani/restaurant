@@ -10,15 +10,15 @@ body {
   font-weight: 500;
   color: black;
 }
-
+/*heading*/
 h1,
 h2 {
   font-family: playfair display, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   color: black;
 }
-
+/*logo*/
 #logo {
   position: absolute;
   text-align: left;
@@ -126,10 +126,10 @@ footer {
 /*About Us*/
 
 .para {
-  font-size: 16px;
+  font-size: 17px;
   margin: auto;
   text-align: justify;
-
+  
 
 }
 
@@ -147,8 +147,7 @@ h2 {
 
 #food-img {
   width: 100%;
-
-
+ 
 }
 
 #our-food {
@@ -350,14 +349,6 @@ h2 {
     float: left;
     color: #464040;
   } */
-}
-
-
-.spacer {
-  padding: 20px;
-  height: 20px;
-  width: 20px;
-}
 
 .dosa-item {
   font-size: 20px;

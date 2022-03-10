@@ -62,17 +62,19 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
   
    
    # **Frameworks, Libraries & Programs Used**
-    <ol type="1">
-      <li><a href="https://fonts.google.com/">Google Fonts</a></li>
-    </ol>
-    <ul>
-      <li>Google fonts was used to import the fonts in the style.css which is used throughout the project.
-      </li>
-    </ul>
-      <li><a href="https://fontawesome.com/">Font Awesome</a></li>
-    <ul>
-    <li>Font Awesome was used in the footer to navigate social media links which serves as a user-centered design.</li>
-    </ul>
+  <ul>
+    <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+  </ul>
+  <ul>
+  <li>Google fonts was used to import the fonts in the style.css which is used throughout the project.
+  </li>
+  </ul>
+  <ul>
+  <li><a href="https://fontawesome.com/">Font Awesome</a></li>
+  </ul>
+  <ul>
+  <li>Font Awesome was used in the footer to navigate social media links which serves as a user-centered design.</li>
+  </ul>
 <hr>
 
 # **Testing**

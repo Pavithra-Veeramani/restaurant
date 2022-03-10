@@ -32,7 +32,7 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
     <ul>
       <li><strong>Colour Scheme</strong></li>
       <ol type="a">
-      <li>Colors used in the website are goldenrod and black.</li>
+      <li>Colors used in the website are Goldenrod and Black.</li>
       </ol> 
     </ul>
     <ul>
@@ -45,7 +45,7 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
 
     # **Images**
     <ul>
-    <li>All images for the website was downloaded from <a href="https://pixabay.com/">Pixabay</a></li>
+    <li>All images for this website were downloaded from <a href="https://pixabay.com/">Pixabay</a></li> and <a href="https://www.pexels.com/">Pexels</a>
     </ul>
     <hr>
 
@@ -59,11 +59,12 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
     different wireframes for three different devices. Balsamiq wireframe is used to create outline of the website.  
     <hr> 
 
-   # **Features**
+  
    
    # **Frameworks, Libraries & Programs Used**
     <ol type="1">
       <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+    </ol>
     <ul>
       <li>Google fonts was used to import the fonts in the style.css which is used throughout the project.
       </li>
@@ -104,6 +105,7 @@ In order to make sure that design web pages are responsive to all device sizes, 
 
 [W3C Markup](https://jigsaw.w3.org/css-validator/) was used to check for any errors within my CSS pages.
 
+ # **Features**
 # **Navigation**
   <ul>
   <li>The navigation bar contains Home, Menu and Contact-us located in the right corner and the logo in the left corner.
@@ -162,5 +164,3 @@ In order to make sure that design web pages are responsive to all device sizes, 
 
    #### **Step 3**
   <p>We need to scroll down to the git hub pages section to get our deployed link.</p>
-    
-  [7. Acknowledgement](#acknowledgement)

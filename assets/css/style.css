@@ -172,13 +172,9 @@ h2 {
 /*gallery*/
 .gallery {
   padding-top: 50px;
-  display: flex;
+  display: block;
   width: 100%;
-  align-items: center;
-  justify-content: center;
 }
-
-
 
 #image-restaurant {
   padding-top: 50px;
@@ -192,9 +188,8 @@ h2 {
 }
 
 #address-wrapper {
- 
   text-align: center;
-  font-family:   source sans pro, open sans;
+  font-family: source sans pro, open sans;
 }
 
 #address-wrapper p {

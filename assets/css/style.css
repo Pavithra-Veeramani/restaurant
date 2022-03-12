@@ -20,7 +20,7 @@ h2 {
 }
 /*logo*/
 
-#logo-link {
+.no-link {
   text-decoration: none;
 }
 
@@ -85,16 +85,15 @@ h2 {
 
 /*footer*/
 footer {
-  
   bottom: 0;
-  height: 10vh;
+  height: auto;
   background-color: goldenrod;
   width: 100%;
 }
 
 .social-media {
   text-align: center;
-  }
+}
 
 .social-media>li {
   display: inline-block;
@@ -198,7 +197,8 @@ h2 {
 }
 
 #address-wrapper p {
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: bold;
   font-family:  source sans pro, open sans;
 }
 
@@ -207,16 +207,6 @@ h2 {
   align-items: center;
   justify-content: center;
   object-fit:contain;
-  
-}
-
-.prep-video {
-  width: 100%;
-}
-
-/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-@media (min-width:320px)  { 
-  
 }
 
 .bg-contact-us {
@@ -527,16 +517,21 @@ h2 {
   
   /* navigation links */
   .header {
-    height: 15vh;
+    height: 10vh;
     /* position: fixed; */
   }
-   #menu li {
-      display: inline;
-      float: center;
-      list-style-type: none;
-      margin-left: 30px;
-    }
-
+  #menu li {
+    display: inline;
+    float: center;
+    list-style-type: none;
+    margin-left: 30px;
+  }
+  footer {
+    bottom: 0;
+    height: 20vh;
+    background-color: goldenrod;
+    width: 100%;
+  }
   #our-story-container {
     padding-left: 100px;
   }
@@ -563,10 +558,6 @@ h2 {
   #food-img {
     width: 50%;
     float: left;
-  }
-
-  .prep-video {
-    width: 50%;
   }
 
   .gallery, #gallery1, #gallery2{
@@ -610,7 +601,7 @@ h2 {
     background-size: cover;
   }
 }
-/* Laptop Responsiveness Complete*/
+/* Desktop Responsiveness Complete*/
 
 .dosa-item {
   font-size: 20px;

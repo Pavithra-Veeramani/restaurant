@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+Pro:wght@300&display=swap');
-* {
+*{
   margin: 0;
   padding: 0;
   border: none;
 }
 
 body {
-  font-family: source sans pro, sans-serif;
-  font-weight: 500;
+  font-family: source sans pro, open sans;
+  font-weight: 16px;
   color: black;
 }
 /*heading*/
@@ -19,17 +19,24 @@ h2 {
   color: black;
 }
 /*logo*/
+
+#logo-link {
+  text-decoration: none;
+}
+
 #logo {
-  position: absolute;
+  /* position: absolute; */
+  display: block;
   text-align: left;
   font-size: 280%;
   margin-top: 1px;
+  background-color: goldenrod;
+  
 }
-
 
 /* navigation links */
 .header {
-  height: 15vh;
+  height: 20vh;
   /* position: fixed; */
 }
 
@@ -46,22 +53,21 @@ h2 {
 #menu {
   letter-spacing: 2px;
   padding-right: 15px;
-
-
 }
 
 #menu,
 #logo {
-  line-height: 75px;
+  line-height: 50px;
   padding-left: 15px;
 }
 
 #menu li {
-  display: inline;
+  display: flex;
   float: center;
   list-style-type: none;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
+
 
 #menu a {
   text-decoration: none;
@@ -89,12 +95,12 @@ footer {
 .social-media {
   text-align: center;
   
-}
+  }
 
 .social-media>li {
   display: inline-block;
   margin-right: 5em;
-  vertical-align:top;
+  vertical-align:bottom;
   padding: 15px;
 }
 
@@ -163,50 +169,91 @@ h2 {
   width: 100%;
 }
 
-
-
-#image-restaurant {
+/*gallery*/
+.gallery {
   padding-top: 50px;
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
-  display: inline-block;
-  margin: 25px 60px;
+}
+
+
+
+#image-restaurant {
+  padding-top: 50px;
+  /* display: flex; */
+  /* width: 100%; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* display: inline-block; */
+  /* margin: 25px 60px; */
   
 }
 
 #map-wrapper {
   width: 100%;
   height: 200px;
-  
 }
 
 #address-wrapper {
+ 
   text-align: center;
-  font-family:  source sans pro, sans-serif;
+  font-family:   source sans pro, open sans;
 }
 
 #address-wrapper p {
   font-size: 15px;
-  font-family: source sans pro;
+  font-family:  source sans pro, open sans;
 }
-
 
 .video-section {
   display: flex;
   align-items: center;
   justify-content: center;
+  object-fit:contain;
+  
 }
 
 .prep-video {
   width: 100%;
 }
 
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+@media (min-width:320px)  { 
+  
+}
 
 
 /* Responsiveness for Tablet */
 @media only screen and (min-width: 600px) {
+
+  #menu,
+  #logo {
+    line-height: 75px;
+    padding-left: 15px;
+  }
+
+  #logo {
+    position: absolute;
+    text-align: left;
+    font-size: 280%;
+    margin-top: 1px;
+    text-decoration: none;
+  }
+  
+  /* navigation links */
+  .header {
+    height: 15vh;
+    /* position: fixed; */
+  }
+   #menu li {
+      display: inline;
+      float: center;
+      list-style-type: none;
+      margin-left: 30px;
+    }
+
   #our-story-container {
     padding-right: 50px;
   }
@@ -265,6 +312,7 @@ h2 {
     justify-content: center;
 
   }
+  
 
   /* #map-wrapper {
     width: 50%;
@@ -277,10 +325,37 @@ h2 {
     float: left;
   } */
 }
+/* Tablet responsiveness complete */
 
 
 /* Responsiveness for Laptop */
 @media only screen and (min-width: 768px) {
+  
+  #menu,
+  #logo {
+    line-height: 75px;
+    padding-left: 15px;
+  }
+
+  #logo {
+    position: absolute;
+    text-align: left;
+    font-size: 280%;
+    margin-top: 1px;
+    text-decoration: none;
+  }
+  
+  /* navigation links */
+  .header {
+    height: 15vh;
+    /* position: fixed; */
+  }
+   #menu li {
+      display: inline;
+      float: center;
+      list-style-type: none;
+      margin-left: 30px;
+    }
 
   #our-story-container {
     padding-left: 100px;
@@ -337,6 +412,7 @@ h2 {
     align-items: center;
     justify-content: center;
   }
+}
 
   /* #map-wrapper {
     width: 50%;
@@ -363,7 +439,7 @@ h2 {
 }
 
 h1 {
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
 }
 
@@ -444,7 +520,7 @@ h1 {
   border: 1px solid #e1e1e1;
   width: 100%;
   border-radius: 8px;
-  font-family: Montserrat, sans-serif;
+  font-family:  source sans pro, open sans;
   resize: none;
 }
 
@@ -459,10 +535,10 @@ h1 {
   padding-top: 50px;
   display: flex;
   width: 100%;
-  align-items: center;
+  align-self: center;
   justify-content: center;
-  display: inline-block;
-  margin: 25px 60px;
+  /* display: inline-block; */
+  /* margin-left: 100px ; */
   border-radius: 15px;
 }
 

@@ -166,3 +166,8 @@ In order to make sure that design web pages are responsive to all device sizes, 
 
    #### **Step 3**
   <p>We need to scroll down to the git hub pages section to get our deployed link.</p>
+
+   # **Acknowledgements**
+   Thanks to my mentor Marcel Mulders for his support and feedback.
+   
+   Thanks to the tutor support in code institute for their support.

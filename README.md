@@ -40,7 +40,7 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
     <ul>
       <li><strong>Font</strong></li>
       <ol type="a">
-      <li>The font used are Akaya Telivigala as the primary font and open sans as the secondary font.</li> 
+      <li>The font used are Playfair display as the primary font and Source sans pro as the secondary font.</li> 
       </ol>
     </ul>
     <hr>
@@ -105,7 +105,7 @@ In order to make sure that design web pages are responsive to all device sizes, 
 
 ### W3C Validator Tools
 
-[W3C Markup](https://validator.w3.org/#validate_by_input+with_options) was used to check for any errors within my HTML pages.
+[W3C Markup](https://validator.w3.org/) was used to check for any errors within my HTML pages.
 ![Html](/assets/images/readme/html-validator.png "Html")
 
 [W3C Markup](https://jigsaw.w3.org/css-validator/) was used to check for any errors within my CSS pages.

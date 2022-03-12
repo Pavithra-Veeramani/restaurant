@@ -151,28 +151,31 @@ h2 {
   text-align: center;
 }
 
-#food-img {
+#food-img img{
   width: 100%;
- 
 }
-
 #our-food {
   width: 100%;
 }
-
-#our-story {
+#our-story{
   width: 100%;
-
 }
-
-#story-img {
+#story-img img{
   width: 100%;
 }
 
 /*gallery*/
-.gallery {
+.gallery, #gallery1, #gallery2{
   padding-top: 50px;
   display: block;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#gallery1 img {
+  width: 100%;
+}
+#gallery2 img {
   width: 100%;
 }
 
@@ -294,15 +297,26 @@ h2 {
     width: 50%;
   }
 
-  .gallery {
+  .gallery, #gallery1, #gallery2{
     padding-top: 50px;
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
-
+  }
+  #gallery1 img {
+    width: 330px;
+  }
+  #gallery2 img {
+    width: 330px;
   }
   
+  #story-img img {
+    width: 330px;
+  }
+  #food-img img {
+    width: 330px;
+  }
 
   /* #map-wrapper {
     width: 50%;
@@ -400,17 +414,29 @@ h2 {
     float: left;
   }
 
-
   .prep-video {
     width: 50%;
   }
 
-  .gallery {
+  .gallery, #gallery1, #gallery2{
     padding-top: 50px;
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
+  }
+  #gallery1 img {
+    width: 330px;
+  }
+  #gallery2 img {
+    width: 330px;
+  }
+
+  #story-img img {
+    width: 500px;
+  }
+  #food-img img {
+    width: 500px;
   }
 
   #image-restaurant {

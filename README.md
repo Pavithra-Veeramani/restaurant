@@ -5,7 +5,9 @@ Dosa Hut is a fictitious family owned restaurant which was founded in 2010.
 In Indian cookery, a dosa is a crisp savoury pancake.
 We are one of the popular restaurants in the town for making crispy dosas.
 We mainly focus on quality, customer satisfication and fulfilling their needs.
-Our chefs are experts in making all varieties of Indian foods, dosas in particular, sweets and savouries. 
+Our chefs are experts in making all varieties of Indian foods, dosas in particular, sweets and savouries.
+
+  ![ami](/assets/images/readme/ami-responsive.png "ami") 
 
   # **User Experience (UX)**
   <p>User experience design plays a important role to attract new customers, boost sales, and create good reputation.</p>
@@ -104,8 +106,10 @@ In order to make sure that design web pages are responsive to all device sizes, 
 ### W3C Validator Tools
 
 [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) was used to check for any errors within my HTML pages.
+![Html](/assets/images/readme/html-validator.png "Html")
 
 [W3C Markup](https://jigsaw.w3.org/css-validator/) was used to check for any errors within my CSS pages.
+![Css](/assets/images/readme/css-validator.png "Css")
 
  # **Features**
 # **Navigation**

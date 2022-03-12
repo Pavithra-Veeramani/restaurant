@@ -31,7 +31,7 @@ h2 {
   font-size: 280%;
   margin-top: 1px;
   background-color: goldenrod;
-  
+  text-decoration: none;
 }
 
 /* navigation links */
@@ -300,7 +300,7 @@ h2 {
   border-radius: 8px;
 }
 
-/* Responsiveness for Tablet */
+/* Tablet Responsiveness Start */
 @media only screen and (min-width: 600px) {
 
   #menu,
@@ -334,19 +334,11 @@ h2 {
   }
 
   #story-img {
-    /* position: relative; */
-    /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
-    /* height: 300px; */
     width: 50%;
     float: left;
-    /* height: 50px;*/
-    /* background-position: right; */
   }
 
   #our-story {
-    /* position: relative; */
-    /* margin:0px 50px 40px; */
-    /* height: 300px; */
     width: 50%;
     float: left;
   }
@@ -356,23 +348,13 @@ h2 {
   }
 
   #our-food {
-    /* position: relative; */
-    /* margin:0px 50px 40px; */
-    /* height: 300px; */
     width: 50%;
     float: left;
   }
 
   #food-img {
-    /* position: relative; */
-    /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
-    /* height: 300px; */
     width: 50%;
     float: left;
-    /*float: left;*/
-    /* height: 50px;*/
-    /* background-position: right; */
-
   }
 
   .prep-video {
@@ -399,25 +381,12 @@ h2 {
   #food-img img {
     width: 330px;
   }
-
-  /* #map-wrapper {
-    width: 50%;
-    float: left;
-    height: 200px;
-  }
-
-  #address-wrapper{
-    width: 50%;
-    float: left;
-  } */
   #image-restaurant {
     padding-top: 50px;
     display: flex;
     width: 100%;
     align-self: center;
     justify-content: center;
-    /* display: inline-block; */
-    /* margin-left: 100px ; */
     border-radius: 15px;
   }
   #image-restaurant img{
@@ -425,7 +394,6 @@ h2 {
   } 
 
   .bg-contact-us {
-    /* text-align: center; */
     width: 400px;
     margin: 0 auto;
     padding: 20px;
@@ -435,8 +403,8 @@ h2 {
 /* Tablet responsiveness complete */
 
 
-/* Responsiveness for Laptop */
-@media only screen and (min-width: 768px) {
+/* Laptop Responsiveness Start */
+@media only screen and (min-width: 1280px) {
   
   #menu,
   #logo {
@@ -469,20 +437,11 @@ h2 {
   }
 
   #story-img {
-    /* position: relative; */
-    /* background: url('/assets/images/banana-leaf.jpg') no-repeat;*/
-    /* height: 300px; */
     width: 50%;
     float: left;
-
-    /* height: 50px;*/
-    /* background-position: right; */
   }
 
   #our-story {
-    /* position: relative; */
-    /* margin:0px 50px 40px; */
-    /* height: 300px; */
     width: 50%;
     float: left;
   }
@@ -492,17 +451,11 @@ h2 {
   }
 
   #our-food {
-    /* position: relative; */
-    /* margin:0px 50px 40px; */
-    /* height: 300px; */
     width: 50%;
     float: left;
   }
 
   #food-img {
-    /* position: relative; */
-    /* background: url('/assets/images/banana-leaf.jpg') no-repeat; */
-    /* height: 300px; */
     width: 50%;
     float: left;
   }
@@ -538,8 +491,6 @@ h2 {
     width: 100%;
     align-self: center;
     justify-content: center;
-    /* display: inline-block; */
-    /* margin-left: 100px ; */
     border-radius: 15px;
   }
 
@@ -548,14 +499,118 @@ h2 {
   }
 
   .bg-contact-us {
-    /* text-align: center; */
     width: 500px;
     margin: 0 auto;
     padding: 20px;
     background-size: cover;
   }
 }
+/* Laptop Responsiveness Complete*/
 
+
+/* Desktop Responsiveness Start */
+@media only screen and (min-width: 1600px) {
+  
+  #menu,
+  #logo {
+    line-height: 75px;
+    padding-left: 15px;
+  }
+
+  #logo {
+    position: absolute;
+    text-align: left;
+    font-size: 280%;
+    margin-top: 1px;
+    text-decoration: none;
+  }
+  
+  /* navigation links */
+  .header {
+    height: 15vh;
+    /* position: fixed; */
+  }
+   #menu li {
+      display: inline;
+      float: center;
+      list-style-type: none;
+      margin-left: 30px;
+    }
+
+  #our-story-container {
+    padding-left: 100px;
+  }
+
+  #story-img {
+    width: 50%;
+    float: left;
+  }
+
+  #our-story {
+    width: 50%;
+    float: left;
+  }
+
+  #our-food-container {
+    padding-left: 100px;
+  }
+
+  #our-food {
+    width: 50%;
+    float: left;
+  }
+
+  #food-img {
+    width: 50%;
+    float: left;
+  }
+
+  .prep-video {
+    width: 50%;
+  }
+
+  .gallery, #gallery1, #gallery2{
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  #gallery1 img {
+    width: 330px;
+  }
+  #gallery2 img {
+    width: 330px;
+  }
+
+  #story-img img {
+    width: 500px;
+  }
+  #food-img img {
+    width: 500px;
+  }
+
+  #image-restaurant {
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    border-radius: 15px;
+  }
+
+  #image-restaurant img{
+    width: 330px;
+  }
+
+  .bg-contact-us {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-size: cover;
+  }
+}
+/* Laptop Responsiveness Complete*/
 
 .dosa-item {
   font-size: 20px;

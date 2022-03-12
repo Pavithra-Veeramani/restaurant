@@ -7,7 +7,7 @@
 
 body {
   font-family: source sans pro, open sans;
-  font-weight: 16px;
+  font-size: 16px;
   color: black;
 }
 /*heading*/
@@ -63,7 +63,6 @@ h2 {
 
 #menu li {
   display: flex;
-  float: center;
   list-style-type: none;
   /* margin-left: 30px; */
 }
@@ -314,7 +313,6 @@ h2 {
   }
    #menu li {
       display: inline;
-      float: center;
       list-style-type: none;
       margin-left: 30px;
     }
@@ -417,7 +415,6 @@ h2 {
   }
    #menu li {
       display: inline;
-      float: center;
       list-style-type: none;
       margin-left: 30px;
     }
@@ -522,7 +519,6 @@ h2 {
   }
   #menu li {
     display: inline;
-    float: center;
     list-style-type: none;
     margin-left: 30px;
   }

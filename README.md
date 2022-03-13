@@ -34,20 +34,23 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
     <ul>
       <li><strong>Colour Scheme</strong></li>
       <ol type="a">
-      <li>Colors used in the website are Goldenrod and Black.</li>
+      <li>Colors used in the website are Goldenrod(rgb - 218,165,32) and Black.</li>
       </ol> 
     </ul>
     <ul>
       <li><strong>Font</strong></li>
       <ol type="a">
-      <li>The font used are Playfair display as the primary font and Source sans pro as the secondary font.</li> 
+      <li>The font used are 'Playfair display' as the primary font and 'Source sans pro' as the secondary font.
+      </li> 
       </ol>
     </ul>
     <hr>
 
-   - # **Images**
-    <ul>
-    <li>All images for this website were downloaded from <a href="https://pixabay.com/">Pixabay</a></li> and <a href="https://www.pexels.com/">Pexels</a>
+  - # **Images**
+      All images for this website were downloaded from
+    <ul> 
+     <li><a href="https://pixabay.com/">Pixabay</a></li>
+     <li><a href="https://www.pexels.com/">Pexels</a></li>
     </ul>
     <hr>
 
@@ -59,44 +62,32 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
   - [Site skeleton (wireframes)](#wireframes)
     [Balsamiq](https://balsamiq.com/) was used to create wireframes for the website.For this project, I created three
     different wireframes for three different devices. Balsamiq wireframe is used to create outline of the website.  
-    <hr> 
-
-  
+    <hr>
    
    # **Frameworks, Libraries & Programs Used**
   <ul>
-    <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+    <li><a href="https://fonts.google.com/">Google Fonts</a> - Google fonts was used to import the fonts in the style.css which is used throughout the project.</li>
   </ul>
   <ul>
-  <li>Google fonts was used to import the fonts in the style.css which is used throughout the project.
-  </li>
+  <li><a href="https://fontawesome.com/">Font Awesome</a> - Font Awesome was used in the footer to navigate social media links which serves as a user-centered design.</li>
   </ul>
-  <ul>
-  <li><a href="https://fontawesome.com/">Font Awesome</a></li>
-  </ul>
-  <ul>
-  <li>Font Awesome was used in the footer to navigate social media links which serves as a user-centered design.</li>
-  </ul>
-<hr>
+  <hr>
 
 # **Testing**
 
-<ul>
-   <li>I tested this project works in different browsers like Chrome, Safari and Firefox
-   </li>
-   </ul>
-
-   <ul>
-   <li>I have confirmed that this project is responsive, looks good and functions on all devices. 
-   </li>
-   </ul>
-   <ul>
-   <li>
-   I have confirmed that the navigation,header,Home,Menu and contact us are all readable and understandable.</li>
-   </ul>
   <ul>
-  <li>I have confirmed that the form works,requires entries in every field.
-  </li>
+    <li>
+      I tested this website and it works in different browsers like Chrome, Safari and Firefox
+    </li>
+    <li>
+      I have confirmed that this project is responsive, looks good and functions on all devices such as Desktop, Laptop, Tablet and Mobile phones.
+    </li>
+    <li>
+      I have confirmed that the navigation,header,Home,Menu and contact us are all readable and understandable.
+    </li>
+    <li>
+      I have confirmed that the form works,requires entries in every field.
+    </li>
   </ul>
 
 ### Responsive Tools
@@ -110,6 +101,7 @@ In order to make sure that design web pages are responsive to all device sizes, 
 
 [W3C Markup](https://jigsaw.w3.org/css-validator/) was used to check for any errors within my CSS pages.
 ![Css](/assets/images/readme/css-validator.png "Css")
+
 
  # **Features**
 # **Navigation**

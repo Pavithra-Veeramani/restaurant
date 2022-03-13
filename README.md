@@ -58,10 +58,11 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
     [Balsamiq](https://balsamiq.com/) was used to create wireframes for the website.For this project, I created three
     different wireframes for three different devices. Balsamiq wireframe is used to create outline of the website.  
    
-    ![mobilewframe](/assets/images/readme/Mobile-Wireframe.png "mobilewframe") 
-    ![tabletwframe](/assets/images/readme/Tablet-Wireframe.png "tabletwframe") 
-    ![laptopwframe](/assets/images/readme/Laptop-Wireframe.png "laptopwframe") 
+   <img src="assets/images/readme/Mobile-Wireframe.png" width="200">
 
+  <img src="assets/images/readme/Tablet-Wireframe.png"    width="300">
+  
+  <img src="assets/images/readme/Laptop-Wireframe.png" width="400">
      <hr>
    
    # **Frameworks, Libraries & Programs Used**

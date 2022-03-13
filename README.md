@@ -57,7 +57,12 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
   - [Site skeleton (wireframes)](#wireframes)
     [Balsamiq](https://balsamiq.com/) was used to create wireframes for the website.For this project, I created three
     different wireframes for three different devices. Balsamiq wireframe is used to create outline of the website.  
-    <hr>
+   
+    ![mobilewframe](/assets/images/readme/Mobile-Wireframe.png "mobilewframe") 
+    ![tabletwframe](/assets/images/readme/Tablet-Wireframe.png "tabletwframe") 
+    ![laptopwframe](/assets/images/readme/Laptop-Wireframe.png "laptopwframe") 
+
+     <hr>
    
    # **Frameworks, Libraries & Programs Used**
   <ul>
@@ -103,11 +108,11 @@ In order to make sure that design web pages are responsive to all device sizes, 
 
 ### W3C Validator Tools
 
-[W3C Markup](https://validator.w3.org/) was used to check for any errors within my HTML pages.
-![Html](/assets/images/readme/html-validator.png "Html")
+[W3C Markup](https://validator.w3.org/) was used to check for any errors within all HTML pages.
 
-[W3C Markup](https://jigsaw.w3.org/css-validator/) was used to check for any errors within my CSS pages.
-![Css](/assets/images/readme/css-validator.png "Css")
+
+[W3C Markup](https://jigsaw.w3.org/css-validator/) was used to check for any errors within CSS file.
+
 
 ### Chrome Performance check
 
@@ -115,10 +120,19 @@ Lighthouse feature in Chrome was used to check the performance of the page and a
  <ul>
     <li>index.html - 86%</li>
     <li>food-menu.html - 99%</li>
-     <li>contact-us.html - 99%</li>
+    <li>contact-us.html - 99%</li>
   </ul>
 
 ![perf1](/assets/images/readme/performance-report-index.png "perf1")
+
+### Known bugs
+
+<ul>
+  <li>Social media icons not properly aligned to the centre in the Footer.
+  </li>
+  <li>Contact us form fields not properly padded in mobile device.
+  </li>
+</ul>
 
  # **Features**
  # **Navigation**
@@ -168,7 +182,17 @@ Lighthouse feature in Chrome was used to check the performance of the page and a
 
   # **Deployment**
   ### **GitHub Pages**
-  <p>The website was deployed in to GitHub Pages.</p>
+  <p>The website was deployed in to GitHub Pages by following the below steps.</p>
+
+  ### **Step 1**
+  <p>Open git hub, We can see list of repositories on the left side. Click the one that is created for Dosa Hut project.</p>
+
+  #### **Step 2**
+  <p>Select the settings and scroll down to the git hub pages section. Click where it says none and select "main". 
+  Once we've selected our branch name, we  can click "save". This will refresh the page.</p>
+
+   #### **Step 3**
+  <p>We need to scroll down to the git hub pages section to get our deployed link.</p>
 
 
   # **Acknowledgements**

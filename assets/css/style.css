@@ -35,7 +35,7 @@ h2 {
 
 /* navigation links */
 .header {
-  height: 20vh;
+  height: 12vh;
 }
 
 .text-center {
@@ -44,7 +44,7 @@ h2 {
   font-size: 110%;
 }
 
-.background {
+.header-background {
   background-color: rgb(218,165,32);
 }
 
@@ -136,12 +136,7 @@ h2 {
 #food-img img{
   width: 100%;
 }
-#our-food {
-  width: 100%;
-}
-#our-story{
-  width: 100%;
-}
+
 #story-img img{
   width: 100%;
 }
@@ -254,6 +249,26 @@ h2 {
   border-radius: 8px;
 }
 
+/* Mobile Responsiveness Start */
+@media only screen and (max-width: 600px) {
+  .header {
+    height: 24vh;
+  }
+
+  .active {
+    border-bottom: 1px solid#3a3a3a;
+    font-weight: bold;
+  }
+
+  #our-food {
+    margin: 15px;
+  }
+  #our-story{
+    margin: 15px;
+  }
+  
+}
+
 /* Tablet Responsiveness Start */
 @media only screen and (min-width: 600px) {
 
@@ -272,26 +287,22 @@ h2 {
   }
   
   /* navigation links */
-  .header {
-    height: 15vh;
+  #menu li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 30px;
   }
-   #menu li {
-      display: inline;
-      list-style-type: none;
-      margin-left: 30px;
-    }
 
-  #our-story-container {
-    padding-right: 50px;
+  #our-food {
+    margin: 20px;
+  }
+  #our-story{
+    margin: 20px;
   }
 
   #story-img {
     width: 50%;
     float: left;
-  }
-
-  #our-food-container {
-    padding-right: 50px;
   }
 
   #food-img {
@@ -352,7 +363,7 @@ h2 {
   
   #menu,
   #logo {
-    line-height: 75px;
+    line-height: 50px;
     padding-left: 15px;
   }
 
@@ -365,25 +376,30 @@ h2 {
   }
   
   /* navigation links */
-  .header {
-    height: 15vh;
+  
+  #menu li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 30px;
   }
-   #menu li {
-      display: inline;
-      list-style-type: none;
-      margin-left: 30px;
-    }
 
   #our-story-container {
-    padding-left: 100px;
+    padding-right: 50px;
   }
 
+  #our-food {
+    width: 100%;
+  }
+  #our-story{
+    width: 100%;
+  }
+  
   #story-img {
     display: flex;
   }
 
   #our-food-container {
-    padding-left: 100px;
+    padding-right: 50px;
   }
 
   #food-img {
@@ -445,7 +461,7 @@ h2 {
   
   #menu,
   #logo {
-    line-height: 75px;
+    line-height: 50px;
     padding-left: 15px;
   }
 
@@ -483,6 +499,7 @@ h2 {
   #our-story {
     width: 50%;
     float: left;
+    margin: 0px;
   }
 
   #our-food-container {
@@ -492,6 +509,7 @@ h2 {
   #our-food {
     width: 50%;
     float: left;
+    margin: 0px;
   }
 
   #food-img {

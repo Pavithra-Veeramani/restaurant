@@ -249,6 +249,38 @@ h2 {
   border-radius: 8px;
 }
 
+
+.dosa-item {
+  font-size: 20px;
+  padding: 25px 50px 75px 100px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.dosa-item ul {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+h1 {
+  text-align: center;
+}
+
+.menu-price {
+  float: right;
+  font-weight: bold;
+}
+
+.menu-extra-detail {
+  font-size: 15px;
+  font-style: italic;
+
+}
+
+.background-menu {
+  background-size: cover;
+}
+
 /* Mobile Responsiveness Start */
 @media only screen and (max-width: 600px) {
   .header {
@@ -267,6 +299,12 @@ h2 {
     margin: 15px;
   }
   
+  .dosa-item {
+    font-size: 16px;
+    padding: 25px 25px 25px 25px;
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 
 /* Tablet Responsiveness Start */
@@ -544,37 +582,6 @@ h2 {
   }
 }
 /* Desktop Responsiveness Complete*/
-
-.dosa-item {
-  font-size: 20px;
-  padding: 25px 50px 75px 100px;
-  width: 50%;
-  margin: 0 auto;
-}
-
-.dosa-item ul {
-  list-style-type: none;
-  list-style-position: inside;
-}
-
-h1 {
-  text-align: center;
-}
-
-.menu-price {
-  float: right;
-  font-weight: bold;
-}
-
-.menu-extra-detail {
-  font-size: 15px;
-  font-style: italic;
-
-}
-
-.background-menu {
-  background-size: cover;
-}
 
 .book-table {
   background: rgb(218,165,32);

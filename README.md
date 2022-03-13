@@ -24,7 +24,28 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
   <p>
   The site is discoverable and users can accomplish their tasks the first time they visit.
   </p>
+  
+  -	# **User Goals**
+      The main goal of this website is to provide  a customer experience that encourages repeat business. Another major objective of a restaurant is to create a sense of loyalty in their patrons to make them regular customers.
+      <hr>
 
+  -	# **User Expectations**
+     <ul>
+       <li>
+       The site structure is designed considering the expectation of users to be simple and easy to use.     
+       </li>
+       <li>
+       The user interface is easy to navigate (inlcude main navigation bar, footer with social media icons and
+       book a table link.)
+       </li>
+       <li>
+       Responsive design for all screen/device sizes like mobile, tablet and desktop.
+       </li>
+       <li>
+       Book a table link is provided where the users can fill the form and submit it.
+       </li>
+     </ul>
+      <hr>
   -	# **Color Scheme and Font**
     <ul>
       <li><strong>Colour Scheme</strong></li>

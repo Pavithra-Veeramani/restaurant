@@ -102,9 +102,19 @@ In order to make sure that design web pages are responsive to all device sizes, 
 [W3C Markup](https://jigsaw.w3.org/css-validator/) was used to check for any errors within my CSS pages.
 ![Css](/assets/images/readme/css-validator.png "Css")
 
+### Chrome Performance check
+
+Lighthouse feature in Chrome was used to check the performance of the page and all the pages were reported to have more than 85% performance.
+ <ul>
+    <li>index.html - 86%</li>
+    <li>food-menu.html - 99%</li>
+     <li>contact-us.html - 99%</li>
+  </ul>
+
+![perf1](/assets/images/readme/performance-report-index.png "perf1")
 
  # **Features**
-# **Navigation**
+ # **Navigation**
   <ul>
   <li>The navigation bar contains Home, Menu and Contact-us located in the right corner and the logo in the left corner.
   </li>

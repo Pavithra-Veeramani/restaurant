@@ -71,7 +71,8 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
 # **Project plan**
 I created a list of story items before starting development work. Googlesheet was used to maintain the list with description, target date, status and priority. The story items were both functional and technical tasks. <a href="https://docs.google.com/spreadsheets/d/1pRZyCN0FQD6l_kOCmg2Lx3cr5kEttCqoUYaKoG-ZjzA/edit?usp=sharing">Here </a> is a link to the stories.
 
-# **Technical approach**
+# **Development and Technical approach**
+  GitPod was used for rapid development and was able to quickly see the feedback in some kind of a hosted server.
   <ul>
     <li>Navigation menu - flex display</li>
     <li>Gallery responsiveness - Viewport width approach. The width for the images will be decided by the width of the device's screen</li>
@@ -167,19 +168,10 @@ Lighthouse feature in Chrome was used to check the performance of the page and a
 
   # **Deployment**
   ### **GitHub Pages**
-  <p>Project deployment takes place in git hub pages using the following steps:</p>
+  <p>The website was deployed in to GitHub Pages.</p>
 
-  #### **Step 1**
-  <p>Open git hub, We can see list of repositories on the left side. Click the one that is created for Dosa Hut project.</p>
 
-  #### **Step 2**
-  <p>Select the settings and scroll down to the git hub pages section. Click where it says none and select "main". 
-  Once we've selected our branch name, we  can click "save". This will refresh the page.</p>
-
-   #### **Step 3**
-  <p>We need to scroll down to the git hub pages section to get our deployed link.</p>
-
-   # **Acknowledgements**
+  # **Acknowledgements**
    Thanks to my mentor Marcel Mulders for his support and feedback.
    
    Thanks to the tutor support in code institute for their support.

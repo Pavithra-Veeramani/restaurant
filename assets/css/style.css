@@ -118,7 +118,7 @@ footer {
 #image-spice {
   height: 600px;
   width: 100%;
-  background: url('../images/dosa.jpg');
+  background: url('../images/dosa.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -128,13 +128,10 @@ footer {
 /*background-size: auto;*/
 
 /*About Us*/
-
 .para {
   font-size: 17px;
   margin: auto;
   text-align: justify;
-  
-
 }
 
 #food-wrapper {
@@ -357,17 +354,17 @@ h2 {
     justify-content: center;
   }
   #gallery1 img {
-    width: 330px;
+    width: 230px;
   }
   #gallery2 img {
-    width: 330px;
+    width: 230px;
   }
   
   #story-img img {
-    width: 330px;
+    width: 230px;
   }
   #food-img img {
-    width: 330px;
+    width: 230px;
   }
   #image-restaurant {
     padding-top: 50px;

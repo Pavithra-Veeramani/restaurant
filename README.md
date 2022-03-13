@@ -45,7 +45,7 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
     </ul>
     <hr>
 
-    # **Images**
+   - # **Images**
     <ul>
     <li>All images for this website were downloaded from <a href="https://pixabay.com/">Pixabay</a></li> and <a href="https://www.pexels.com/">Pexels</a>
     </ul>

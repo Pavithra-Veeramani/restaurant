@@ -73,10 +73,11 @@ I created a list of story items before starting development work. Googlesheet wa
 
 # **Technical approach**
   <ul>
-  <li>Navigation menu - flex display</li>
-  <li>Gallery responsiveness - Viewport width approach. The width for the images will be decided by the width of the device's screen</li>
-  <li>Google map - Embedded link and iFrame</li>
-  <li>Form - Contact Us form sibmitted to https://formdump.codeinstitute.net</li>
+    <li>Navigation menu - flex display</li>
+    <li>Gallery responsiveness - Viewport width approach. The width for the images will be decided by the width of the device's screen</li>
+    <li>Google map - Embedded link and iFrame</li>
+    <li>Form - Contact Us form sibmitted to https://formdump.codeinstitute.net</li>
+  </ul>
 
 # **Testing**
 

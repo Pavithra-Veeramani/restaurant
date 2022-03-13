@@ -68,6 +68,16 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
   </ul>
   <hr>
 
+# **Project plan**
+I created a list of story items before starting development work. Googlesheet was used to maintain the list with description, target date, status and priority. The story items were both functional and technical tasks. <a href="https://docs.google.com/spreadsheets/d/1pRZyCN0FQD6l_kOCmg2Lx3cr5kEttCqoUYaKoG-ZjzA/edit?usp=sharing">Here </a> is a link to the stories.
+
+# **Technical approach**
+  <ul>
+  <li>Navigation menu - flex display</li>
+  <li>Gallery responsiveness - Viewport width approach. The width for the images will be decided by the width of the device's screen</li>
+  <li>Google map - Embedded link and iFrame</li>
+  <li>Form - Contact Us form sibmitted to https://formdump.codeinstitute.net</li>
+
 # **Testing**
 
   <ul>

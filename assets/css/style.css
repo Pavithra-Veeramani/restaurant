@@ -6,14 +6,14 @@
 }
 
 body {
-  font-family: source sans pro, open sans;
+  font-family: 'source sans pro', 'open sans';
   font-size: 16px;
   color: black;
 }
 /*heading*/
 h1,
 h2 {
-  font-family: playfair display, sans-serif;
+  font-family: 'playfair display', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: black;
@@ -174,20 +174,20 @@ h2 {
   width: 100%;
 }
 
-#map-wrapper {
+#gmap {
   width: 100%;
   height: 200px;
 }
 
 #address-wrapper {
   text-align: center;
-  font-family: source sans pro, open sans;
+  font-family: 'source sans pro', 'open sans';
 }
 
 #address-wrapper p {
   font-size: 16px;
   font-weight: bold;
-  font-family:  source sans pro, open sans;
+  font-family: 'source sans pro', 'open sans';
 }
 
 .video-section {
@@ -208,7 +208,7 @@ h2 {
   font-size: 18px;
   padding: 20px 20px 20px 20px;
   background-size: contain;
-  font-family: open sans, sans-serif;
+  font-family: 'open sans', sans-serif;
 }
 
 #fname {
@@ -237,7 +237,7 @@ h2 {
   border: 1px solid #e1e1e1;
   width: 100%;
   border-radius: 8px;
-  font-family:  source sans pro, open sans;
+  font-family:  'source sans pro', 'open sans';
   resize: none;
 }
 

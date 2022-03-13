@@ -382,31 +382,12 @@ h2 {
     list-style-type: none;
     margin-left: 30px;
   }
-
-  #our-story-container {
-    padding-right: 50px;
-  }
-
   #our-food {
-    width: 100%;
+    width: 95%;
   }
   #our-story{
-    width: 100%;
+    width: 95%;
   }
-  
-  #story-img {
-    display: flex;
-  }
-
-  #our-food-container {
-    padding-right: 50px;
-  }
-
-  #food-img {
-    width: 50%;
-    float: left;
-  }
-
   .prep-video {
     width: 50%;
   }
@@ -489,6 +470,7 @@ h2 {
   }
   #our-story-container {
     padding-left: 100px;
+    padding-right: 100px;
   }
 
   #story-img {
@@ -504,6 +486,7 @@ h2 {
 
   #our-food-container {
     padding-left: 100px;
+    padding-right: 100px;
   }
 
   #our-food {

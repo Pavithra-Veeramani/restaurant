@@ -15,20 +15,15 @@ Our chefs are experts in making all varieties of Indian foods, dosas in particul
   <h3><strong>Website objective:</strong></h3>
   The objective of this website is to give a simplified user experience in getting the restaurant's menu information, contact details and table booking process.
 
-  <ul>
-    <li>The navigation bar is simple with three menu items: Home, Menu, and Contct Us. The foreground and background colors are selected having people with visual impairment also in to consideration. 
-    </li>
-  </ul>
-  
-  <ul>
-      <li>Website is scannable with attractive fonts and visuals. On repeat visits the user can accomplish repetitive tasks quickly and easily.
-      </li>
-  </ul>
-
-  <ul>
-      <li>The site is discoverable and users can accomplish their tasks the first time they visit.
-      </li>
-  </ul>
+  <p>
+  The navigation bar is simple with three menu items: Home, Menu, and Contct Us. The foreground and background colors are selected having people with visual impairment also in to consideration. 
+  </p>
+  <p>
+  Website is scannable with attractive fonts and visuals. On repeat visits the user can accomplish repetitive tasks quickly and easily.
+  </p>
+  <p>
+  The site is discoverable and users can accomplish their tasks the first time they visit.
+  </p>
 
   -	# **Color Scheme and Font**
     <ul>

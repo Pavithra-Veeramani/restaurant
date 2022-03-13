@@ -113,6 +113,7 @@ footer {
   height: 600px;
   width: 100%;
   overflow: hidden;
+  padding-bottom: 25px;
 }
 
 #image-spice {
@@ -134,14 +135,6 @@ footer {
   text-align: justify;
 }
 
-#food-wrapper {
-  padding: 0 50px 50px 50px;
-}
-
-#story-wrapper {
-  padding: 50px;
-}
-
 h2 {
   text-align: center;
 }
@@ -160,6 +153,9 @@ h2 {
 }
 
 /*gallery*/
+#gallery1 {
+  padding-top: 50px;
+}
 .gallery, #gallery1, #gallery2, #gallery3{
   display: block;
   width: 100%;

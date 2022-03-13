@@ -135,11 +135,11 @@ footer {
 }
 
 #food-wrapper {
-  padding-top: 75px;
+  padding: 0 50px 50px 50px;
 }
 
 #story-wrapper {
-  padding-top: 75px;
+  padding: 50px;
 }
 
 h2 {
@@ -160,8 +160,7 @@ h2 {
 }
 
 /*gallery*/
-.gallery, #gallery1, #gallery2{
-  padding-top: 50px;
+.gallery, #gallery1, #gallery2, #gallery3{
   display: block;
   width: 100%;
   align-items: center;
@@ -171,6 +170,9 @@ h2 {
   width: 100%;
 }
 #gallery2 img {
+  width: 100%;
+}
+#gallery3 img {
   width: 100%;
 }
 
@@ -324,8 +326,8 @@ h2 {
   }
 
   #our-story {
-    width: 50%;
-    float: left;
+    /* width: 50%;
+    float: left; */
   }
 
   #our-food-container {
@@ -333,8 +335,8 @@ h2 {
   }
 
   #our-food {
-    width: 50%;
-    float: left;
+    /* width: 50%;
+    float: left; */
   }
 
   #food-img {
@@ -346,8 +348,8 @@ h2 {
     width: 50%;
   }
 
-  .gallery, #gallery1, #gallery2{
-    padding-top: 50px;
+  .gallery, #gallery1, #gallery2, #gallery3{
+    /* padding-top: 50px; */
     display: flex;
     width: 100%;
     align-items: center;
@@ -357,6 +359,9 @@ h2 {
     width: 32.5vw;
   }
   #gallery2 img {
+    width: 32.5vw;
+  }
+  #gallery3 img {
     width: 32.5vw;
   }
   
@@ -421,13 +426,15 @@ h2 {
   }
 
   #story-img {
-    width: 50%;
-    float: left;
+    display: flex;
+    /* width: 50%;
+    float: left; */
   }
 
   #our-story {
-    width: 50%;
-    float: left;
+    /* display: flex; */
+    /* width: 50%;
+    float: left; */
   }
 
   #our-food-container {
@@ -435,8 +442,9 @@ h2 {
   }
 
   #our-food {
-    width: 50%;
-    float: left;
+    /* display: flex; */
+    /* width: 50%;
+    float: left; */
   }
 
   #food-img {
@@ -448,8 +456,8 @@ h2 {
     width: 50%;
   }
 
-  .gallery, #gallery1, #gallery2{
-    padding-top: 50px;
+  .gallery, #gallery1, #gallery2, #gallery3{
+    /* padding-top: 50px; */
     display: flex;
     width: 100%;
     align-items: center;
@@ -461,7 +469,9 @@ h2 {
   #gallery2 img {
     width: 32.5vw;
   }
-
+  #gallery3 img {
+    width: 32.5vw;
+  }
   #story-img img {
     width: 500px;
   }
@@ -552,8 +562,8 @@ h2 {
     float: left;
   }
 
-  .gallery, #gallery1, #gallery2{
-    padding-top: 50px;
+  .gallery, #gallery1, #gallery2, #gallery3{
+    /* padding-top: 50px; */
     display: flex;
     width: 100%;
     align-items: center;
@@ -563,6 +573,9 @@ h2 {
     width: 32.5vw;
   }
   #gallery2 img {
+    width: 32.5vw;
+  }
+  #gallery3 img {
     width: 32.5vw;
   }
 
